@@ -40,5 +40,6 @@ multiplyButton.addEventListener( 'click', () => {
 });
 
 divideButton.addEventListener( 'click', () => {
+  console.log(divide(+divideNum1.value, +divideNum2.value));
   divideDisplay.textContent = divide(+divideNum1.value, +divideNum2.value)
 });
