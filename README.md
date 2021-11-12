@@ -23,3 +23,30 @@
 * Cypress will open -- you should then click "run <#> integration spec(s)"
     ![](cypress.png)
 * Make sure all tests pass
+
+
+# Refactoring Calculator Lab
+
+#### I've already set up the basic calculator elements and generically styled them for a template
+
+### What
+1. What do I need to finish my calculator lab?
+    - 17 buttons
+    - 1 display
+    - functions for each math operation
+
+### Why
+1. Why do I need them?
+    - 17 buttons to display all the possible key entries
+    - A single Div to display the result of the calculation
+    - Making the code modular makes it easier to swap modules and update
+
+### How
+1. How will they solve the problem?
+    - Adding one button per key, and presenting them as clickable/readable buttons allows us to control the inputs and behaviours
+    - Having a single Div for display gives a clean ui/ux
+    - By importing all the functions, we can easily work on individual sections of code without breaking the code as a whole
+
+### When
+1. When will they solve the problem?
+    - By adding event listeners to each button we can update the DOM each time is a button is pressed, and generate variable to work with.... not going as planned. gonna just write some code
